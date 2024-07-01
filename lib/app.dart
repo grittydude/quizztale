@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
-import 'package:quiztale/screens/welcome_screen.dart';
+import 'package:quiztale/screens/splash_screen.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
     return const GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'QuizzTale',
-      home: WelcomeScreen(),
+      home: SplashScreen(),
     );
   }
 }
